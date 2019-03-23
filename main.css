@@ -1,13 +1,23 @@
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                         1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 400px;
+  margin: 0 auto;
 }
 
 .tile {
-  background: grey;
-  transition: opacity .3s;
+  width: 25px;
+  height: 25px;
+
+  background: rgba(0, 0, 0, 0.8);
+  transition: background-color .3s;
 }
 
 .tile:hover {
-  opacity: .6;
+  background-color: white;
 }
