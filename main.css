@@ -1,0 +1,13 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tile {
+  background: grey;
+  transition: opacity .3s;
+}
+
+.tile:hover {
+  opacity: .6;
+}
